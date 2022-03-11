@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // Exclude webworker and dom, they're riddled with bugs
+    // https://github.com/microsoft/TypeScript/issues/20595
+    "lib": ["esnext"],
+  },
+  // VsCode errors when this def is included
+  // tsc-vue errors when this def is excluded
+  // science can't explain this
+  "include": [
+    "./types/"
+  ],
+  "files": [
+    // Exclude webworker code from type checking
+    "src/main.ts",
+  ],
+}

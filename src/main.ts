@@ -1,6 +1,6 @@
 import { createApp, } from 'vue';
 import { createVuetify } from 'vuetify';
-import 'vuetify/styles'; // BROKEN
+import 'vuetify/styles'; // Previously BROKEN
 // import 'vuetify/dist/vuetify.css'; // WORKING
 
 import App from './App.vue';

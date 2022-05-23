@@ -1892,9 +1892,9 @@ vue@^3.2.25:
     "@vue/shared" "3.2.31"
 
 "vuetify@npm:@vuetify/nightly@next":
-  version "3.0.0-next-20220310.0"
-  resolved "https://registry.yarnpkg.com/@vuetify/nightly/-/nightly-3.0.0-next-20220310.0.tgz#0295e9413605cf002bd1c923407cf2e637a30005"
-  integrity sha512-F0/sN+GiTAY/YWgEsyWtfM9opEKnK9JyVZ0ufhT06MhgLyX/EhD7+u/82fB0ptZt6LFL8EFvkAEJSRqCkHJ0wA==
+  version "3.0.0-next-20220523.0"
+  resolved "https://registry.yarnpkg.com/@vuetify/nightly/-/nightly-3.0.0-next-20220523.0.tgz#dc0244e04e904f7c78086d419cd572aa35233ba5"
+  integrity sha512-x09KR5Kh5Z2sLAsJ1baxkh22gAO7wQFWfTqw0mKS7AMtwXoQPzUzvW6f19VRe7lzHDPjNZJY5dfunCNl7R8T8A==
 
 which@^2.0.1:
   version "2.0.2"
